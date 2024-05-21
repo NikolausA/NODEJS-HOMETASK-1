@@ -1,0 +1,21 @@
+.notificationBlock {
+  padding: 10px;
+  position: absolute;
+  top: 55px;
+  left: 250px;
+  z-index: 99;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgb(157, 154, 154);
+}
+
+.warning {
+  background-color: rgb(255, 0, 38);
+}
+
+.success {
+  background-color: #3def84;
+}
+
+.notificationMessage {
+  font-size: 1.2em;
+}

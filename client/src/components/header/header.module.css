@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6172e6;
+}
+
+.menuItems {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+
+.link {
+  padding: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: rgb(4, 4, 57);
+  text-decoration: none;
+}
+
+.link:hover {
+  box-sizing: border-box;
+  border: 1px solid rgb(4, 4, 57);
+}
+
+:global .active {
+  color: #fff;
+  cursor: none;
+  border: none;
+}
+
+:global .active:hover {
+  border: none;
+}

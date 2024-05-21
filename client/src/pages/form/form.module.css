@@ -1,0 +1,30 @@
+.form {
+  width: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.label {
+  margin: 30px 0 0 0;
+}
+
+.input {
+  padding: 4px;
+  width: 100%;
+  margin: 5px 0 20px 0;
+}
+
+.description {
+  width: 100%;
+}
+
+.button {
+  margin: 20px auto;
+  width: 150px;
+  padding: 5px;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 4px;
+}

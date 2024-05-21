@@ -1,0 +1,54 @@
+.searchBlock {
+  margin: 20px 20px 20px 0;
+  display: flex;
+  justify-content: end;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(4, 4, 57);
+  cursor: pointer;
+}
+
+.searchButton {
+  border: none;
+  background-color: #fff;
+}
+
+.reset {
+  padding: 3px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2a8af1;
+}
+
+.table {
+  width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.head {
+  background-color: darkgray;
+  color: #fff;
+}
+
+.cell {
+  width: auto;
+  border: 1px solid #514e4e;
+}
+
+.name {
+  margin-right: 10px;
+}
+
+.paginationButtons {
+  display: flex;
+  justify-content: center;
+}
+
+.currentPage {
+  margin: 0 10px;
+}
