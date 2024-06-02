@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -81,12 +83,8 @@ app.post("/login", async (req, res) => {
   }
 });
 
-mongoose
-  .connect(
-    "mongodb+srv://nikaleksenko:an3KaRbbFRhb40i4@cluster0.vxcl4ie.mongodb.net/medrequests?retryWrites=true&w=majority&appName=Cluster0"
-  )
-  .then(() => {
-    app.listen(port, () => {
-      console.log(`Server listening on port ${port}`);
-    });
+mongoose.connect(process.env.MONGODB_CONNECTION_STRING).then(() => {
+  app.listen(port, () => {
+    console.log(`Server listening on port ${port}`);
   });
+});
